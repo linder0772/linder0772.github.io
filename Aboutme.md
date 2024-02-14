@@ -1,6 +1,6 @@
 ---
 title: About Me
-layout: simple
+layout: simple2
 order: 1
 ---
 
