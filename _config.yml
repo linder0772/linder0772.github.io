@@ -3,7 +3,7 @@ email: hydroxy8828@gmail.com
 description: > # this means to ignore newlines until "baseurl"
 
 baseurl:  # the subpath of the site
-url: https://github.com/EinHungerkuenstler/EinHungerkuenstler.github.io # the base hostname & protocol for your site
+url: https://linder0772.github.io/ # the base hostname & protocol for your site
 
 permalink: /:year-:month/:title
 TZ: Asia/Seoul
