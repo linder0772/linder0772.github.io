@@ -1,17 +1,9 @@
 ---
 title: About Me
-layout: simple2
+layout: simple
 order: 1
 ---
 
-
-
-<h1 style="text-align: center;"> ―LOVE ONLY EXISTS ON THE SURFACE </h1>
-<p style="line-height:2em;">ㅤ</p>
-<p style="text-align: center; width: fit-content; margin-left: auto; margin-right: auto;"><img style="width:40%;" src="https://lh3.googleusercontent.com/pw/ABLVV84-fPKd-3gfIXZtD1GDT3DVGJ_0jRjM4I89rljQe_I8L3G_gTlBrS_AMSonjI343tnEhCm2DTZE3rYP98UFg159wU1ME8Md4zgizggCwPoZX8ZPgVY=w382-h315-p-k" ></p>
-
-<p style="text-align:center; line-height: 120%; font-size: 2em;width: fit-content; margin-left: auto; margin-right: auto; margin-bottom:0;">린더</p>
-<p style="text-align:center;width: fit-content; margin-left: auto; margin-right: auto;">취미는 사랑</p>
 
 <p style="text-align:center;line-height:160%;margin-left: auto; margin-right: auto;">
 20↑ 여성 오타쿠 글러.<br>
