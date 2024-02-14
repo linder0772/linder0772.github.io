@@ -1,28 +1,9 @@
-<!DOCTYPE html>
-<html>
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-{% include head.html %}
+---
+layout: page
+---
 
-<body>
-    
-    <div class="content" style="padding: 1em;">
-      <div class="post_content" style="width: 100%;">
-        {{ content }}
-      </div>
-    </div>
-    
-    <a href="{{ '/' | relative_url }}" style="margin: 1em, font-size: 2em; text-align: center; display: block; display: none;">🏠</a>
-
-  <footer class="footer" style="margin: 1em;">
-  <div>
-    &copy; {{ site.time | date: '%Y' }} {{ site.user.name }}.
-    Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>.
-    Get this theme
-    <a href="https://github.com/EinHungerkuenstler/EinHungerkuenstler.github.io" target="_blank">here</a>.
-  </div>
-</footer>
-    
-  {% include js.html %}
-    
-</body>
-</html>
+    <div class="post">
+        <div class="post_content">
+            {{ content }}
+        </div>
+    </div> 

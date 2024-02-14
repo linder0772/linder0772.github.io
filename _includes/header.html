@@ -17,7 +17,7 @@
               {% if site.user.aboutme %}
               <ul class="nav_list">
         <li class="nav_item">
-          <a href="{{ site.baseurl }}/aboutme.html">About me</a>
+          <a href="{{ site.baseurl }}/aboutme">About me</a>
         </li>
       </ul>
       {% endif %}
@@ -29,16 +29,7 @@
         </li>
       </ul>
       {% endfor %}
-      {% for category in site.categories %}
-      {% capture cat_name %}{{ category | first }}{% endcapture %}
-      <ul class="nav_list">
-        <li class="nav_item">
-          <a href="{{ site.baseurl }}/categories/{{ cat_name }}" id="aa">{{ cat_name }}
-            <!-- ({{ category | last | size }}) -->
-          </a>
-        </li>
-      </ul>
-      {% endfor %}
+     
     </nav>
   </div>
 
