@@ -2,8 +2,31 @@
 layout: page
 ---
 
-<div class="post">
-  <div class="post_content">
-    {{ content }}
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+  <div class="content">
+
+    {% include header.html %}
+
+    {% include mobile_menu.html %}
+    
+    <main class="main">
+
+    <div class="post">
+        <div class="post_content">
+            {{ content }}
+        </div>
+    </div>
+
+    </main>
+
   </div>
-</div>
+
+  {% include footer.html %}
+  {% include js.html %}
+</body>
+</html>
