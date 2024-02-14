@@ -17,7 +17,7 @@ cusdis:
 
 user:
   name: 린더
-  pic: /assets/img/profile.jpg
+  pic: /assets/img/profile.png
   picAlt:
   job: 취미는 사랑
   aboutme: true
